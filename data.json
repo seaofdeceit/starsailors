@@ -4,6 +4,7 @@
     "role": "Defender",
     "tier": "Niche",
     "img": "img/PC1301_D.png",
+    "elementImg": "img/Img_Elemental_Earth.png",
     "special": "Not very useful if you don’t need to reduce the enemy’s critical hit chance."
   },
   {
@@ -161,6 +162,7 @@
     "special": "Single-target DPS with self Crit. Synergizes well with Crit-oriented teams."
   }
 ]
+
 
 
 
