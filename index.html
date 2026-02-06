@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Character Tier List by Sea Of Deceit</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #111;
+    color: #eee;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;                                            
+}
+
+/* MENU NAVIGATION */
+#mainMenu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
+    background: #222;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#mainMenu a {
+    color: #ff8f00; /* Orange */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: 0.2s;
+}
+
+#mainMenu a:hover {
+    background: #4cafef;
+    color: #fff;
+    border-radius: 6px;
+}
+
+/* TOP TEXT UNDER TITLE */
+#topText {
+    font-size: 1rem;
+    color: #ff8f00; /* Orange */
+    margin-bottom: 15px;
+}
+
+/* FILTERS */
+.filters {
+    margin-bottom: 20px;
+}
+
+input, select {
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    margin: 0 5px;
+}
+
+/* TIER LIST VERTICAL */
+.tier-container{
+    display: flex;
+    flex-direction: column; /* Vertical stack: Strong -> Good -> Niche */
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+/* TIER STYLING */
+.tier{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 250px;
+    max-width: 90vw;
+    border-radius: 12px;
+    padding: 10px;
+    color: #fff;
+}
+
+.tierStrong { background-color: #b71c1c; }  /* Red */
+.tierGood { background-color: #ff8f00; }    /* Orange */
+.tierNiche { background-color: #1b5e20; }   /* Green */
+
+/* CARDS ROW */
+.cards-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+/* CARD */
+.card {
+    background: #333;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    width: 120px;         /* larghezza fissa */
+    min-height: 150px;    /* altezza minima uniforme */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: 0.15s;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border-color: #4cafef;
+}
+
+.card img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    border-bottom: 1px solid #222;
+    margin-bottom: 2px; /* spazio ridotto tra immagine e nome */
+}
+
+.card .name {
+    height: auto;
+    line-height: 1.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+/* POPUP */
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #222;
+    padding: 20px;
+    border-radius: 12px;
+    display: none;
+    z-index: 100;
+    text-align: center;
+}
+
+#popup img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+#popup button {
+    margin-top: 10px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    background: #4cafef;
+    color: white;
+    cursor: pointer;
+}
+
+/* FOOTER */
+#footer {
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 0.85rem;
+    color: #ccc;
+    background: #111;
+    text-align: center;
+    border-top: 1px solid #444;
+}
+
+/* RESPONSIVE */
+@media(max-width: 800px){
+    .card {
+        width: 45%;  /* 2 per riga su tablet */
+    }
+}
+@media(max-width: 500px){
+    .card {
+        width: 90%;  /* 1 per riga su mobile */
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION MENU -->
+<nav id="mainMenu">
+    <a href="index.html">Character Tier List</a>
+    <a href="newpage.html">New Page</a>
+</nav>
+
+<h1>Character Tier List by Sea Of Deceit</h1>
+<p id="topText">Criteria: Comparison with the same Role, 3★ (unlocked Trait) and Best-in-slot Memory Piece (1★ SSR / 5★ SR). Random Order.</p>
+<p id="topText">Note: For Damage Dealers/Chain Amplifier, it is very important to be against enemies of the same element.</p>
+
+<div class="filters">
+    Filter by name: <input type="text" id="nameFilter" placeholder="Enter name...">
+    Filter by role: 
+    <select id="roleFilter">
+        <option value="">All</option>
+        <option value="Attacker">Attacker</option>
+        <option value="Defender">Defender</option>
+        <option value="Supporter">Supporter</option>
+        <option value="Debuffer">Debuffer</option>
+    </select>
+</div>
+
+<div class="tier-container">
+    <div class="tier tierStrong" id="tierStrong">
+        <h3>Strong</h3>
+        <div class="cards-row" id="rowStrong"></div>
+    </div>
+    <div class="tier tierGood" id="tierGood">
+        <h3>Good</h3>
+        <div class="cards-row" id="rowGood"></div>
+    </div>
+    <div class="tier tierNiche" id="tierNiche">
+        <h3>Niche</h3>
+        <div class="cards-row" id="rowNiche"></div>
+    </div>
+</div>
+
+<!-- POPUP -->
+<div id="popup">
+    <img id="popupImg">
+    <h3 id="popupName"></h3>
+    <p id="popupRole"></p>
+    <p id="popupTier"></p>
+    <p id="popupSpecial"></p> <!-- Special text only in popup -->
+    <button onclick="closePopup()">Close</button>
+</div>
+
+<!-- FOOTER / DISCLAIMER -->
+<footer id="footer">
+    <p>Made By Sea Of Deceit.</p>
+    <p>DISCLAIMER: This is a hobby project and is not affiliated with Com2uS Holdings. All asset files are the property of their original owners.</p>
+</footer>
+
+<script>
+let characters = [];
+
+// Load JSON data
+async function loadCharacters(){
+    try {
+        const res = await fetch('data.json');
+        characters = await res.json();
+        renderGrid();
+    } catch(err){
+        console.error("Error loading JSON:", err);
+        alert("Error loading character data!");
+    }
+}
+
+// Create card
+function createCard(char){
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+        <img src="${char.img}" alt="${char.name}">
+        <div class="name">${char.name}</div>
+    `;
+    card.onclick = () => showPopup(char);
+    return card;
+}
+
+// Render grid for tiers
+function renderGrid(){
+    ['Strong','Good','Niche'].forEach(t=>{
+        const row = document.getElementById('row'+t);
+        row.innerHTML = '';
+    });
+
+    const role = document.getElementById('roleFilter').value.toLowerCase();
+    const name = document.getElementById('nameFilter').value.toLowerCase();
+
+    characters
+        .filter(c => (!role || c.role.toLowerCase() === role) && (!name || c.name.toLowerCase().includes(name)))
+        .forEach(c=>{
+            const card = createCard(c);
+            const row = document.getElementById('row'+c.tier);
+            if(row) row.appendChild(card);
+        });
+}
+
+// Filters
+document.getElementById('roleFilter').onchange = renderGrid;
+document.getElementById('nameFilter').oninput = renderGrid;
+
+// Popup: show only special text
+function showPopup(char){
+    document.getElementById('popupImg').src = char.img;
+    document.getElementById('popupName').textContent = "";
+    document.getElementById('popupRole').textContent = "";
+    document.getElementById('popupTier').textContent = "";
+    document.getElementById('popupSpecial').textContent = char.special || ""; 
+    document.getElementById('popup').style.display = 'block';
+}
+
+function closePopup(){
+    document.getElementById('popup').style.display = 'none';
+}
+
+// Init
+loadCharacters();
+</script>
+
+</body>
+</html>
