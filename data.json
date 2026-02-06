@@ -12,6 +12,7 @@
     "role": "Attacker",
     "tier": "Niche",
     "img": "img/PC1302_D.png",
+    "elementImg": "img/Img_Elemental_Fire.png",
     "special": "DPS - Chain Amplifier Single Target. Requires constant healing or shields."
   },
   {
@@ -19,6 +20,7 @@
     "role": "Defender",
     "tier": "Niche",
     "img": "img/PC1303_D.png",
+    "elementImg": "img/Img_Elemental_Fire.png",
     "special": "AoE Tank."
   },
   {
@@ -26,6 +28,7 @@
     "role": "Defender",
     "tier": "Good",
     "img": "img/PC1304_D.png",
+    "elementImg": "img/Img_Elemental_Water.png",
     "special": "Reduces enemies’ RES and makes allies take less damage."
   },
   {
@@ -33,6 +36,7 @@
     "role": "Attacker",
     "tier": "Strong",
     "img": "img/PC1305_D.png",
+    "elementImg": "img/Img_Elemental_Wind.png",
     "special": "Single-target DPS with self Crit Rate and Ultimate Bonus. Deals massive damage if used well."
   },
   {
@@ -40,6 +44,7 @@
     "role": "Defender",
     "tier": "Strong",
     "img": "img/PC1307_D.png",
+    "elementImg": "img/Img_Elemental_Fire.png",
     "special": "Heals, reduces damage taken by allies, and removes buffs from enemy."
   },
   {
@@ -47,6 +52,7 @@
     "role": "Attacker",
     "tier": "Strong",
     "img": "img/PC1308_D.png",
+    "elementImg": "img/Img_Elemental_Fire.png",
     "special": "Powerful AoE, especially in a team that applies many debuffs."
   },
   {
@@ -54,6 +60,7 @@
     "role": "Defender",
     "tier": "Niche",
     "img": "img/PC1309_D.png",
+    "elementImg": "img/Img_Elemental_Earth.png",
     "special": "Single-target tank, useful for increasing the team’s damage."
   },
   {
@@ -61,6 +68,7 @@
     "role": "Attacker",
     "tier": "Strong",
     "img": "img/PC1310_D.png",
+    "elementImg": "img/Img_Elemental_Earth.png",
     "special": "Grants Self Crit Rate and deals massive single-target damage."
   },
   {
@@ -68,6 +76,7 @@
     "role": "Attacker",
     "tier": "Good",
     "img": "img/PC1311_D.png",
+    "elementImg": "img/Img_Elemental_Light.png",
     "special": "Single-target DPS that also provides shields and healing. Additional shield sources are preferable."
   },
   {
@@ -75,6 +84,7 @@
     "role": "Supporter",
     "tier": "Strong",
     "img": "img/PC1312_D.png",
+    "elementImg": "img/Img_Elemental_Light.png",
     "special": "Hybrid healer–sub DPS. Particularly strong against bosses."
   },
   {
@@ -82,6 +92,7 @@
     "role": "Supporter",
     "tier": "Good",
     "img": "img/PC1401_D.png",
+    "elementImg": "img/Img_Elemental_Water.png",
     "special": "Heals, heals, and more heals. Also provides a general ATK% buff."
   },
   {
@@ -89,6 +100,7 @@
     "role": "Debuffer",
     "tier": "Good",
     "img": "img/PC1402_D.png",
+    "elementImg": "img/Img_Elemental_Wind.png",
     "special": "Reduces enemies’ DEF, useful in end‑game content."
   },
   {
@@ -96,6 +108,7 @@
     "role": "Supporter",
     "tier": "Niche",
     "img": "img/PC1404_D.png",
+    "elementImg": "img/Img_Elemental_Fire.png",
     "special": "Synergy with Fire teams. Performs better against opponents who apply debuffs."
   },
   {
@@ -103,6 +116,7 @@
     "role": "Attacker",
     "tier": "Good",
     "img": "img/PC1405_D.png",
+    "elementImg": "img/Img_Elemental_Earth.png",
     "special": "DPS - Chain Amplifier AoE"
   },
   {
@@ -110,6 +124,7 @@
     "role": "Debuffer",
     "tier": "Good",
     "img": "img/PC1406_D.png",
+    "elementImg": "img/Img_Elemental_Earth.png",
     "special": "Applies debuffs and Chain Amplifier, good."
   },
   {
@@ -117,6 +132,7 @@
     "role": "Debuffer",
     "tier": "Niche",
     "img": "img/PC1407_D.png",
+    "elementImg": "img/Img_Elemental_Water.png",
     "special": "Useful when paired with many debuffers in the team."
   },
   {
@@ -124,6 +140,7 @@
     "role": "Supporter",
     "tier": "Good",
     "img": "img/PC1408_D.png",
+    "elementImg": "img/Img_Elemental_Wind.png",
     "special": "Heals and primarily offensive support. Great for Wind DPS."
   },
   {
@@ -131,6 +148,7 @@
     "role": "Attacker",
     "tier": "Good",
     "img": "img/PC1409_D.png",
+    "elementImg": "img/Img_Elemental_Light.png",
     "special": "DPS - Chain Amplifier Single Target."
   },
   {
@@ -138,6 +156,7 @@
     "role": "Debuffer",
     "tier": "Strong",
     "img": "img/PC1410_D.png",
+    "elementImg": "img/Img_Elemental_Light.png",
     "special": "Chain amplifier and continuous debuffs, very good."
   },
   {
@@ -145,6 +164,7 @@
     "role": "Debuffer",
     "tier": "Niche",
     "img": "img/PC1411_D.png",
+    "elementImg": "img/Img_Elemental_Fire.png",
     "special": "Useful against enemy teams with lots of buffs."
   },
   {
@@ -152,6 +172,7 @@
     "role": "Supporter",
     "tier": "Strong",
     "img": "img/PC1412_D.png",
+    "elementImg": "img/Img_Elemental_Earth.png",
     "special": "Offensive support that fits well in any team."
   },
   {
@@ -159,9 +180,11 @@
     "role": "Attacker",
     "tier": "Strong",
     "img": "img/PC1413_D.png",
+    "elementImg": "img/Img_Elemental_Light.png",
     "special": "Single-target DPS with self Crit. Synergizes well with Crit-oriented teams."
   }
 ]
+
 
 
 
