@@ -101,7 +101,7 @@
     "name": "Jerry",
     "role": "Attacker",
     "tier": "Good",
-    "img": "img/PC1405_D_D.png",
+    "img": "img/PC1405_D.png",
     "special": "DPS - Chain Amplifier AoE"
   },
   {
@@ -150,15 +150,16 @@
     "name": "Hunter K",
     "role": "Supporter",
     "tier": "Strong",
-    "img": "img/PC1402_D.png",
+    "img": "img/PC1412_D.png",
     "special": "Offensive support that fits well in any team."
   },
   {
     "name": "Iris",
     "role": "Attacker",
     "tier": "Strong",
-    "img": "img/PC1403_D",
+    "img": "img/PC1413_D",
     "special": "Single-target DPS with self Crit. Synergizes well with Crit-oriented teams."
   }
 ]
+
 
