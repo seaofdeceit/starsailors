@@ -103,7 +103,7 @@ input, select {
     cursor: pointer;
     border: 2px solid transparent;
     width: 120px;         /* larghezza fissa */
-    min-height: 150px;    /* altezza minima uniforme */
+    min-height: 180px;    /* altezza minima uniforme */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,7 +133,14 @@ input, select {
     text-overflow: ellipsis;
     white-space: nowrap;
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 2px;
+}
+
+.card .element {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-top: 4px;
 }
 
 /* POPUP */
@@ -194,8 +201,7 @@ input, select {
 <!-- NAVIGATION MENU -->
 <nav id="mainMenu">
     <a href="index.html">Tier List</a>
-    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRK5gdraZMBJ_l3YetLqKnpc_11tB6WYA3E-yt5rp1OrzWEmgxUQ7AmHUWzcAKrWGvcLq3IRnvaSPjv/pubhtml" target="_blank">Star Sailors Spreadsheet
-</a>
+    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRK5gdraZMBJ_l3YetLqKnpc_11tB6WYA3E-yt5rp1OrzWEmgxUQ7AmHUWzcAKrWGvcLq3IRnvaSPjv/pubhtml" target="_blank">Star Sailors Spreadsheet</a>
 </nav>
 
 <h1>Tier List by Sea Of Deceit</h1>
@@ -267,6 +273,7 @@ function createCard(char){
     card.innerHTML = `
         <img src="${char.img}" alt="${char.name}">
         <div class="name">${char.name}</div>
+        <img src="${char.elementImg}" class="element" alt="Element">
     `;
     card.onclick = () => showPopup(char);
     return card;
@@ -315,5 +322,3 @@ loadCharacters();
 
 </body>
 </html>
-
-
