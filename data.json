@@ -3,161 +3,162 @@
     "name": "Remi",
     "role": "Defender",
     "tier": "Niche",
-    "img": "img/PC1101_D.png",
+    "img": "img/PC1301_D.png",
     "special": "Not very useful if you don’t need to reduce the enemy’s critical hit chance."
   },
   {
     "name": "Soul",
     "role": "Attacker",
-    "tier": "Good",
-    "img": "img/PC1102_D.png",
-    "special": "Deals double damage to Debuffer roles."
+    "tier": "Niche",
+    "img": "img/PC1302_D.png",
+    "special": "DPS - Chain Amplifier Single Target. Requires constant healing or shields."
   },
   {
     "name": "Rak",
-    "role": "Supporter",
-    "tier": "Good",
-    "img": "img/PC1103_D.png",
-    "special": "Boosts the attack of all Attacker roles by 15%."
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1303_D.png",
+    "special": "AoE Tank."
   },
   {
     "name": "Erling",
-    "role": "Supporter",
-    "tier": "Niche",
-    "img": "img/PC1104_D.png",
-    "special": "Heals a small amount at the start of each turn."
+    "role": "Defender",
+    "tier": "Good",
+    "img": "img/PC1304_D.png",
+    "special": "Reduces enemies’ RES and makes allies take less damage."
   },
   {
     "name": "Carat",
-    "role": "Debuffer",
-    "tier": "Good",
-    "img": "img/PC1105_D.png",
-    "special": "Reduces enemy defense by 20% when attacking."
+    "role": "Attacker",
+    "tier": "Strong",
+    "img": "img/PC1305_D.png",
+    "special": "Single-target DPS with self Crit Rate and Ultimate Bonus. Deals massive damage if used well."
   },
   {
     "name": "Jen",
     "role": "Defender",
     "tier": "Strong",
-    "img": "img/PC1106_D.png",
-    "special": "Immune to debuffs for the first 3 turns."
+    "img": "img/PC1307_D.png",
+    "special": "Heals, reduces damage taken by allies, and removes buffs from enemy."
   },
   {
     "name": "Heidi",
-    "role": "Defender",
-    "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "role": "Attacker",
+    "tier": "Strong",
+    "img": "img/PC1308_D.png",
+    "special": "Powerful AoE, especially in a team that applies many debuffs."
   },
   {
     "name": "Iron",
     "role": "Defender",
     "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "img": "img/PC1309_D.png",
+    "special": "Single-target tank, useful for increasing the team’s damage."
   },
   {
     "name": "Nina",
-    "role": "Defender",
-    "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "role": "Attacker",
+    "tier": "Strong",
+    "img": "img/PC1310_D.png",
+    "special": "Grants Self Crit Rate and deals massive single-target damage."
   },
   {
     "name": "Ethan",
-    "role": "Defender",
-    "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "role": "Attacker",
+    "tier": "Good",
+    "img": "img/PC1311_D.png",
+    "special": "Single-target DPS that also provides shields and healing. Additional shield sources are preferable."
   },
   {
     "name": "Kaira",
-    "role": "Defender",
-    "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "role": "Supporter",
+    "tier": "Strong",
+    "img": "img/PC1312_D.png",
+    "special": "Hybrid healer–sub DPS. Particularly strong against bosses."
   },
   {
     "name": "Dora",
-    "role": "Defender",
-    "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "role": "Supporter",
+    "tier": "Good",
+    "img": "img/PC1401_D.png",
+    "special": "Heals, heals, and more heals. Also provides a general ATK% buff."
   },
   {
     "name": "Simo",
-    "role": "Defender",
-    "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "role": "Debuffer",
+    "tier": "Good",
+    "img": "img/PC1402_D.png",
+    "special": "Reduces enemies’ DEF, useful in end‑game content."
   },
   {
     "name": "Ed",
-    "role": "Defender",
+    "role": "Supporter",
     "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "img": "img/PC1404_D.png",
+    "special": "Synergy with Fire teams. Performs better against opponents who apply debuffs."
   },
   {
     "name": "Jerry",
-    "role": "Defender",
-    "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "role": "Attacker",
+    "tier": "Good",
+    "img": "img/PC1405_D_D.png",
+    "special": "DPS - Chain Amplifier AoE"
   },
   {
     "name": "Nutty",
-    "role": "Defender",
-    "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "role": "Debuffer",
+    "tier": "Good",
+    "img": "img/PC1406_D.png",
+    "special": "Applies debuffs and Chain Amplifier, good."
   },
   {
     "name": "Nadia",
-    "role": "Defender",
+    "role": "Debuffer",
     "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "img": "img/PC1407_D.png",
+    "special": "Useful when paired with many debuffers in the team."
   },
   {
     "name": "Mui",
-    "role": "Defender",
-    "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "role": "Supporter",
+    "tier": "Good",
+    "img": "img/PC1408_D.png",
+    "special": "Heals and primarily offensive support. Great for Wind DPS."
   },
   {
     "name": "Sion",
-    "role": "Defender",
-    "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "role": "Attacker",
+    "tier": "Good",
+    "img": "img/PC1409_D.png",
+    "special": "DPS - Chain Amplifier Single Target."
   },
   {
     "name": "Gerbil",
-    "role": "Defender",
-    "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "role": "Debuffer",
+    "tier": "Strong",
+    "img": "img/PC1410_D.png",
+    "special": "Chain amplifier and continuous debuffs, very good."
   },
   {
     "name": "Caroline",
-    "role": "Defender",
+    "role": "Debuffer",
     "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "img": "img/PC1411_D.png",
+    "special": "Useful against enemy teams with lots of buffs."
   },
   {
     "name": "Hunter K",
-    "role": "Defender",
-    "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "role": "Supporter",
+    "tier": "Strong",
+    "img": "img/PC1402_D.png",
+    "special": "Offensive support that fits well in any team."
   },
   {
     "name": "Iris",
-    "role": "Defender",
-    "tier": "Niche",
-    "img": "img/PC1107_D.png",
-    "special": "Reflects 10% of damage back to attackers."
+    "role": "Attacker",
+    "tier": "Strong",
+    "img": "img/PC1403_D",
+    "special": "Single-target DPS with self Crit. Synergizes well with Crit-oriented teams."
   }
 ]
+
