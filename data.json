@@ -1,48 +1,160 @@
 [
   {
-    "name": "Swordsman",
+    "name": "Remi",
     "role": "Defender",
-    "tier": "Strong",
+    "tier": "Niche",
     "img": "img/PC1101_D.png",
-    "special": "This swordsman gains +10% defense when HP is below 50%."
+    "special": "Not very useful if you don’t need to reduce the enemy’s critical hit chance."
   },
   {
-    "name": "Warrior",
+    "name": "Soul",
     "role": "Attacker",
     "tier": "Good",
     "img": "img/PC1102_D.png",
     "special": "Deals double damage to Debuffer roles."
   },
   {
-    "name": "Enchanter",
+    "name": "Rak",
     "role": "Supporter",
     "tier": "Good",
     "img": "img/PC1103_D.png",
     "special": "Boosts the attack of all Attacker roles by 15%."
   },
   {
-    "name": "Cleric",
+    "name": "Erling",
     "role": "Supporter",
     "tier": "Niche",
     "img": "img/PC1104_D.png",
     "special": "Heals a small amount at the start of each turn."
   },
   {
-    "name": "Highlander",
+    "name": "Carat",
     "role": "Debuffer",
     "tier": "Good",
     "img": "img/PC1105_D.png",
     "special": "Reduces enemy defense by 20% when attacking."
   },
   {
-    "name": "Sage",
+    "name": "Jen",
     "role": "Defender",
     "tier": "Strong",
     "img": "img/PC1106_D.png",
     "special": "Immune to debuffs for the first 3 turns."
   },
   {
-    "name": "Paladin",
+    "name": "Heidi",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Iron",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Nina",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Ethan",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Kaira",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Dora",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Simo",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Ed",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Jerry",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Nutty",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Nadia",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Mui",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Sion",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Gerbil",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Caroline",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Hunter K",
+    "role": "Defender",
+    "tier": "Niche",
+    "img": "img/PC1107_D.png",
+    "special": "Reflects 10% of damage back to attackers."
+  },
+  {
+    "name": "Iris",
     "role": "Defender",
     "tier": "Niche",
     "img": "img/PC1107_D.png",
