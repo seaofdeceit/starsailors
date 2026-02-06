@@ -157,9 +157,10 @@
     "name": "Iris",
     "role": "Attacker",
     "tier": "Strong",
-    "img": "img/PC1413_D",
+    "img": "img/PC1413_D.png",
     "special": "Single-target DPS with self Crit. Synergizes well with Crit-oriented teams."
   }
 ]
+
 
 
